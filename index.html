@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🌤️ My Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- 🌌 Night Sky Elements -->
+    <div id="stars"></div> <!-- ⭐ Stars will be dynamically created -->
+    <div class="moon"></div>
+
+    <!-- 🌞 Daytime Elements -->
+    <div class="sun"></div>
+
+    <!-- ☁️ Clouds -->
+    <div class="cloud cloud1"></div>
+    <div class="cloud cloud2"></div>
+
+    <!-- 🌧️ Rain Effect -->
+    <div class="rain"></div>
+
+    <!-- 🌦️ Main App Container -->
+    <div class="container">
+      <h1>Weather Forecast</h1>
+    
+
+
+      <!-- 🔍 Search Section -->
+      <div class="search-box">
+        <input
+          type="text"
+          id="cityInput"
+          placeholder="Enter city name..."
+          autocomplete="off"
+        />
+        <button id="searchBtn">Search</button>
+        <button id="useLocationBtn">📍 Use My Location</button>
+      </div>
+
+      <!-- 🪶 Status Messages -->
+      <p id="statusMessage" class="status"></p>
+
+      <!-- 🌡️ Weather Info -->
+      <div id="weather" class="weather-box">
+        <h2 id="city-name"></h2>
+        <p id="local-time"></p>
+        <img id="weather-icon" alt="Weather icon" />
+        <h3 id="temperature"></h3>
+        <p id="condition"></p>
+        <p id="humidity"></p>
+        <p id="wind"></p>
+
+        <!-- 📅 Forecast Section -->
+        <div id="forecast" class="forecast"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
