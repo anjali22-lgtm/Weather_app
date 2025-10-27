@@ -16,7 +16,6 @@ The app dynamically changes its background and animations (sun, moon, clouds, ra
 - 📍 **Automatic location detection** via Geolocation API
 - 🌞 Dynamic **day/night animations**
 - ☁️ Weather effects for **rain, clouds, and snow**
-- 💾 Saves last searched city using LocalStorage
 - 📱 Fully **responsive design**
 - 🚀 **Deployed on GitHub Pages**
 
